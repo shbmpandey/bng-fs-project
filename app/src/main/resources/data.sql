@@ -1,3 +1,4 @@
+-- this will instert data in battle_arena table
 INSERT INTO battle_arena (id, coins, upcoming_matches, total_matches, image_link)
 VALUES (1, 900000, 45, 510, 'https://drive.google.com/uc?export=view&id=15FfWgHelBfjZ2vEhZBZ2lgKJ9ZOeSn2N')
 ON DUPLICATE KEY UPDATE
@@ -7,7 +8,7 @@ ON DUPLICATE KEY UPDATE
     image_link = VALUES(image_link);
 
 
-
+--this will to instert date in games table
 INSERT INTO games (id, title, coins, live_users, trending_no, image_link) 
 VALUES 
 (1, 'guns bottle', 400000, 55000, 1, 'https://drive.google.com/uc?export=view&id=1e8G_nDU5x25ODhLfbSvbdg925tz4DTL2')
@@ -80,17 +81,6 @@ ON DUPLICATE KEY UPDATE
 
 
 
--- INSERT INTO users (full_name, email, password)
--- VALUES ('Test User', 'test@gmail.com', 'Test@123')
--- ON DUPLICATE KEY UPDATE
---     full_name = VALUES(full_name),
---     email = VALUES(email),
---     password = VALUES(password);
--- INSERT INTO users (id, full_name, email, password)
--- VALUES ('d3a12c78-8f4d-4e93-9a8c-12c5b3a9df4a', 'Test User', 'testing@gmail.com', 'Testing@1')
--- ON DUPLICATE KEY UPDATE
---     full_name = VALUES(full_name),
---     email = VALUES(email),
---     password = VALUES(password);
+
 
 
