@@ -61,7 +61,7 @@ public class JwtUtil {
             logger.info("JWT token validated successfully.");
             return true;
         } catch (ExpiredJwtException e) {
-            logger.warn("⚠️ Token has expired.");
+            logger.warn("Token has expired.");
         } catch (SignatureException e) {
             logger.warn("Invalid JWT signature.");
         }

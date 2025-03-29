@@ -40,8 +40,9 @@ public class SecurityConfig {
             .cors(cors -> cors.configurationSource(corsConfigurationSource())) 
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/auth/register", "/auth/login").permitAll() 
+                .requestMatchers("/auth/register", "/auth/login", "/games", "/contest/battle_arena").permitAll() 
                 // .requestMatchers("/dashboard").authenticated()  i need to put all the secured endpoint
+                // im keeping it open as im doing only fetch operation im handling authenticate routes from FE only as of now
                 .anyRequest().authenticated()
             )
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

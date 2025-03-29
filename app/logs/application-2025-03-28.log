@@ -1,0 +1,1119 @@
+2025-03-28 14:05:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:05:29 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 10912 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:05:29 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:05:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:05:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:05:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:05:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interface.
+2025-03-28 14:05:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:05:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:05:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:05:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:05:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:05:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4821 ms
+2025-03-28 14:05:34 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 14:05:34 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 14:05:34 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 14:05:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 14:05:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 14:05:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ef112b4
+2025-03-28 14:05:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 14:05:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 14:05:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 14:05:37 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 14:05:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 14:05:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:05:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 14:05:42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 14:05:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:05:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 14:05:42 [restartedMain] INFO  com.gameman.app.Application - Started Application in 14.813 seconds (process running for 16.08)
+2025-03-28 14:36:50 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 14:36:51 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 14:36:51 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:36:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 14:36:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 14:40:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:40:59 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 15300 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:40:59 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:41:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:41:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:41:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:41:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 2 JPA repository interfaces.
+2025-03-28 14:41:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:41:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:41:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:41:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:41:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:41:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4391 ms
+2025-03-28 14:41:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 14:41:05 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e85be0e
+2025-03-28 14:41:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 14:41:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 14:41:06 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 14:41:06 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 14:41:07 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 14:41:07 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 14:41:07 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 14:41:07 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 14:41:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 14:41:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:41:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 14:41:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 14:41:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:41:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 14:41:17 [restartedMain] INFO  com.gameman.app.Application - Started Application in 19.555 seconds (process running for 20.816)
+2025-03-28 14:45:24 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 14:45:24 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 14:45:24 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:45:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 14:45:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 14:47:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:47:01 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 17108 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:47:01 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:47:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:47:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:47:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:47:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124 ms. Found 2 JPA repository interfaces.
+2025-03-28 14:47:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:47:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:47:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:47:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:47:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:47:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3496 ms
+2025-03-28 14:47:04 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes\com\gameman\app\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+2025-03-28 14:47:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-28 14:47:04 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-03-28 14:47:04 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-28 14:47:05 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.gameman.app.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes\com\gameman\app\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1552)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:87)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:71)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1581)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1552)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 71 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "86400000#(24hoursinmilliseconds)"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:708)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:204)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	... 75 common frames omitted
+2025-03-28 14:48:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:48:04 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 1364 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:48:04 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:48:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:48:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:48:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:48:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+2025-03-28 14:48:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:48:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:48:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:48:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:48:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:48:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3781 ms
+2025-03-28 14:48:08 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes\com\gameman\app\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+2025-03-28 14:48:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-03-28 14:48:08 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-03-28 14:48:08 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-28 14:48:08 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.gameman.app.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:520)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes\com\gameman\app\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'expirationMs': Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1606)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1552)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "86400000#(24hoursinmilliseconds)"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:87)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:71)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1581)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1552)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 71 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "86400000#(24hoursinmilliseconds)"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:708)
+	at java.base/java.lang.Long.valueOf(Long.java:1156)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:204)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	... 75 common frames omitted
+2025-03-28 14:52:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:52:04 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 10452 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:52:04 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:52:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:52:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:52:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:52:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.
+2025-03-28 14:52:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:52:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:52:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:52:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:52:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:52:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3407 ms
+2025-03-28 14:52:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 14:52:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 14:52:08 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 14:52:09 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 14:52:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 14:52:10 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 14:52:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 14:52:10 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 14:52:10 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 14:52:10 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 14:52:12 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 14:52:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:52:13 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 14:52:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 14:52:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:52:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 14:52:17 [restartedMain] INFO  com.gameman.app.Application - Started Application in 14.127 seconds (process running for 15.202)
+2025-03-28 14:53:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 14:53:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 14:53:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 77 ms
+2025-03-28 14:53:11 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 14:53:52 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 14:54:28 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 14:54:28 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 14:54:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:54:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 14:54:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 14:54:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 14:54:57 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 10552 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 14:54:57 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 14:54:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 14:54:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 14:55:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 14:55:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
+2025-03-28 14:55:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 14:55:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:55:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 14:55:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 14:55:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 14:55:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3972 ms
+2025-03-28 14:55:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 14:55:02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 14:55:02 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 14:55:03 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 14:55:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 14:55:04 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d5eea
+2025-03-28 14:55:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 14:55:04 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 14:55:05 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 14:55:05 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 14:55:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 14:55:10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 14:55:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 14:55:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 14:55:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 14:55:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 14:55:12 [restartedMain] INFO  com.gameman.app.Application - Started Application in 15.521 seconds (process running for 16.522)
+2025-03-28 14:55:13 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 14:55:13 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 14:55:13 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-28 14:55:13 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 14:58:02 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:01:19 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:01:33 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:02:11 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:02:20 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:03:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:03:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:03:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:03:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:03:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:04:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:04:16 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 18840 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:04:16 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:04:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:04:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:04:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:04:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 171 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:04:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:04:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:04:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:04:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:04:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:04:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4677 ms
+2025-03-28 15:04:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:04:22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:04:22 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:04:23 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:04:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:04:24 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 15:04:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:04:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:04:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:04:24 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:04:26 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:04:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:04:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:04:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:04:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:04:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:04:29 [restartedMain] INFO  com.gameman.app.Application - Started Application in 14.003 seconds (process running for 15.408)
+2025-03-28 15:05:37 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:05:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:05:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:05:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:05:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:06:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:06:17 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 3240 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:06:17 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:06:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:06:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:06:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:06:19 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:06:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:06:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:06:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:06:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:06:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:06:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4410 ms
+2025-03-28 15:06:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:06:22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:06:22 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:06:23 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:06:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:06:24 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 15:06:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:06:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:06:24 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:06:24 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:06:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:06:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:06:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:06:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:06:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:06:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:06:33 [restartedMain] INFO  com.gameman.app.Application - Started Application in 17.386 seconds (process running for 18.478)
+2025-03-28 15:07:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:07:12 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:07:12 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:07:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:07:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:07:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:07:28 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 9328 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:07:28 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:07:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:07:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:07:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:07:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:07:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:07:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:07:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:07:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:07:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:07:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5191 ms
+2025-03-28 15:07:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:07:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:07:33 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:07:34 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:07:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:07:35 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 15:07:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:07:35 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:07:35 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:07:35 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:07:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:07:37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:07:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:07:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:07:39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:07:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:07:39 [restartedMain] INFO  com.gameman.app.Application - Started Application in 12.356 seconds (process running for 13.401)
+2025-03-28 15:08:11 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 15:08:11 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 15:08:11 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-28 15:08:11 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:11:46 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:11:46 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:13:12 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:13:13 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:14:27 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:14:28 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:15:18 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:15:18 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:16:05 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:16:06 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:16:48 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:23:58 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:24:04 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:24:04 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:28:02 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:28:03 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:28:03 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:28:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:28:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:28:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:28:24 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 4504 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:28:24 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:28:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:28:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:28:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:28:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 176 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:28:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:28:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:28:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:28:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:28:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:28:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3619 ms
+2025-03-28 15:28:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:28:28 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:28:28 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:28:31 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:28:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:28:34 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 15:28:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:28:34 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:28:34 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:28:34 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:28:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:28:37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:28:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:28:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:28:39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:28:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:28:39 [restartedMain] INFO  com.gameman.app.Application - Started Application in 17.112 seconds (process running for 18.247)
+2025-03-28 15:29:07 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 15:29:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 15:29:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-03-28 15:29:07 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:29:09 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:31:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:31:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:31:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:31:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:31:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:31:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:31:44 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 4948 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:31:44 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:31:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:31:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:31:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:31:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 161 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:31:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:31:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:31:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:31:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:31:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:31:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4006 ms
+2025-03-28 15:31:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:31:49 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:31:49 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:31:51 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:31:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:31:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bff33b
+2025-03-28 15:31:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:31:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:31:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:31:55 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:31:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:31:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:32:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:32:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:32:06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:32:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:32:06 [restartedMain] INFO  com.gameman.app.Application - Started Application in 23.647 seconds (process running for 25.703)
+2025-03-28 15:32:19 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 15:32:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 15:32:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-28 15:32:19 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:32:34 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:32:34 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:35:38 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:35:40 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:35:49 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:35:49 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:37:29 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:37:35 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:37:35 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:47:54 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 15:47:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 15:47:54 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:47:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 15:47:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 15:48:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 15:48:31 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 10980 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 15:48:31 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 15:48:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 15:48:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 15:48:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 15:48:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 233 ms. Found 2 JPA repository interfaces.
+2025-03-28 15:48:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 15:48:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:48:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 15:48:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 15:48:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 15:48:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 21383 ms
+2025-03-28 15:48:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 15:48:53 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 15:48:53 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 15:48:55 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 15:48:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 15:48:56 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f4dbd1a
+2025-03-28 15:48:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 15:48:56 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 15:48:56 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 15:48:56 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 15:48:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 15:48:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 15:48:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 15:49:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 15:49:01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 15:49:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 15:49:01 [restartedMain] INFO  com.gameman.app.Application - Started Application in 33.722 seconds (process running for 36.591)
+2025-03-28 15:49:16 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 15:49:16 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 15:49:16 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-03-28 15:49:16 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:49:16 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:49:17 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:49:28 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:49:28 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:50:56 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:50:59 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:51:52 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:51:52 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:52:01 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:57:18 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 15:57:19 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 19:00:57 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h16m52s578ms405µs700ns).
+2025-03-28 20:07:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 20:07:01 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 20:07:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 20:07:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 20:07:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 21:02:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 21:02:40 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 2824 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 21:02:40 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 21:02:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 21:02:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 21:02:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 21:02:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139 ms. Found 3 JPA repository interfaces.
+2025-03-28 21:02:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 21:02:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:02:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 21:02:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 21:02:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 21:02:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3530 ms
+2025-03-28 21:02:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 21:02:45 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 21:02:45 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 21:02:45 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 21:02:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 21:02:46 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69a69f33
+2025-03-28 21:02:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 21:02:47 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 21:02:47 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 21:02:47 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 21:02:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 21:02:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:02:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 21:02:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 21:02:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:02:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 21:02:52 [restartedMain] INFO  com.gameman.app.Application - Started Application in 13.008 seconds (process running for 14.088)
+2025-03-28 21:06:36 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 21:06:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 21:06:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:06:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 21:06:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 21:07:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 21:07:07 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 6864 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 21:07:07 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 21:07:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 21:07:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 21:07:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 21:07:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 3 JPA repository interfaces.
+2025-03-28 21:07:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 21:07:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:07:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 21:07:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 21:07:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 21:07:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4211 ms
+2025-03-28 21:07:12 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 21:07:12 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 21:07:12 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 21:07:13 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 21:07:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 21:07:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69a69f33
+2025-03-28 21:07:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 21:07:14 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 21:07:14 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 21:07:14 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 21:07:16 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 21:07:16 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:07:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 21:07:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 21:07:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:07:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 21:07:18 [restartedMain] INFO  com.gameman.app.Application - Started Application in 12.773 seconds (process running for 15.837)
+2025-03-28 21:09:45 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 21:09:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 21:09:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2025-03-28 21:09:45 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:38 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:40 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:42 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:44 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:45 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:46 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:51 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:53 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:54 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:55 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:56 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:58 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:10:59 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:11:00 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:11:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 21:11:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 21:11:11 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:11:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 21:11:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 21:11:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 21:11:44 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 13120 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 21:11:44 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 21:11:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 21:11:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 21:11:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 21:11:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 3 JPA repository interfaces.
+2025-03-28 21:11:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 21:11:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:11:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 21:11:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 21:11:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 21:11:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3988 ms
+2025-03-28 21:11:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 21:11:49 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 21:11:49 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 21:11:50 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 21:11:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 21:11:51 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69a69f33
+2025-03-28 21:11:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 21:11:51 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 21:11:51 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 21:11:51 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 21:11:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 21:11:53 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:11:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 21:11:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 21:11:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:11:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 21:11:55 [restartedMain] INFO  com.gameman.app.Application - Started Application in 12.219 seconds (process running for 13.224)
+2025-03-28 21:12:26 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 21:12:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 21:12:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-28 21:12:26 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:14:43 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28 21:14:43 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-28 21:14:43 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:14:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-28 21:14:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-28 21:15:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 21:15:19 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 16048 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 21:15:19 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 21:15:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 21:15:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 21:15:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 21:15:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 3 JPA repository interfaces.
+2025-03-28 21:15:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 21:15:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:15:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 21:15:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 21:15:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 21:15:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3480 ms
+2025-03-28 21:15:23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 21:15:23 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 21:15:23 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 21:15:24 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 21:15:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 21:15:25 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a624ed9
+2025-03-28 21:15:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 21:15:25 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 21:15:25 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 21:15:25 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 21:15:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 21:15:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 21:15:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 21:15:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 21:15:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 21:15:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 21:15:29 [restartedMain] INFO  com.gameman.app.Application - Started Application in 12.329 seconds (process running for 14.165)
+2025-03-28 21:19:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 21:19:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 21:19:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-28 21:19:15 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:22:59 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:22:59 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:23:00 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:23:00 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:25:16 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:25:16 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:25:17 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:25:17 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:19 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:19 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:20 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:20 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:20 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:30:20 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:06 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:06 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:06 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:06 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:07 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:31:07 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:02 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:02 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:03 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:03 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:03 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:32:03 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:49 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:49 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:50 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:50 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:50 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:50 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:54 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:54 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:54 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:55 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:55 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:55 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:33:58 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:09 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:09 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:10 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:10 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:10 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:10 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:36:36 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:30 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:30 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:30 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:30 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:31 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:38:31 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:02 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:02 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:03 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:03 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:04 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:40:04 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:47:07 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:47:07 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:47:08 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:47:08 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:49:57 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:49:57 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:49:58 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:49:58 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:55 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:55 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:55 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:55 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:58 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:58 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:58 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:50:58 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:13 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:13 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:13 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:13 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:18 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:18 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:18 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:18 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:23 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:23 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:23 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:23 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:25 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:25 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:25 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:25 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:28 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:28 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:28 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:28 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:29 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:29 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:30 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:30 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:32 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:32 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:32 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:32 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:37 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:37 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:37 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:37 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:41 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:41 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:41 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:41 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:43 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:43 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:44 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:51:44 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:22 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:22 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:23 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:23 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:36 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:36 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:36 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:36 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:43 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:43 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:44 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:44 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:48 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:48 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:48 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:48 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:52 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:52 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:52 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:52 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:58 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:58 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:58 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 21:58:58 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 22:07:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-28 22:07:21 [restartedMain] INFO  com.gameman.app.Application - Starting Application using Java 20.0.2 with PID 10460 (C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app\target\classes started by shubh in C:\Users\shubh\OneDrive\Desktop\bng-fs-project\app)
+2025-03-28 22:07:21 [restartedMain] INFO  com.gameman.app.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-28 22:07:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28 22:07:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28 22:07:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28 22:07:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 364 ms. Found 3 JPA repository interfaces.
+2025-03-28 22:07:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-28 22:07:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-28 22:07:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-28 22:07:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28 22:07:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-28 22:07:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8062 ms
+2025-03-28 22:07:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-28 22:07:31 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-28 22:07:31 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-28 22:07:33 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28 22:07:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-28 22:07:35 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ebe62a7
+2025-03-28 22:07:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-28 22:07:35 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-28 22:07:35 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-28 22:07:35 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-28 22:07:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-28 22:07:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28 22:07:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-28 22:07:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-28 22:07:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-28 22:07:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-28 22:07:43 [restartedMain] INFO  com.gameman.app.Application - Started Application in 25.308 seconds (process running for 29.454)
+2025-03-28 23:14:40 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28 23:14:41 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-28 23:14:41 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 87 ms
+2025-03-28 23:14:41 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:41 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:43 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:43 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:51 [http-nio-8080-exec-9] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:51 [http-nio-8080-exec-10] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:51 [http-nio-8080-exec-2] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:14:51 [http-nio-8080-exec-3] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:50:19 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:50:19 [http-nio-8080-exec-8] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:50:22 [http-nio-8080-exec-7] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:50:22 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:53:04 [http-nio-8080-exec-1] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:53:04 [http-nio-8080-exec-4] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:53:06 [http-nio-8080-exec-5] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.
+2025-03-28 23:53:06 [http-nio-8080-exec-6] WARN  c.g.a.s.JwtAuthenticationFilter -  No JWT token found in request.

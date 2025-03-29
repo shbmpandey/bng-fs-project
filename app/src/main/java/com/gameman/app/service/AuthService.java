@@ -1,4 +1,7 @@
 package com.gameman.app.service;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -23,8 +26,7 @@ public class AuthService {
         this.jwtUtil = jwtUtil;
     }
 
-    // Register New User
-    public String registerUser(RegisterRequest request) {
+    public Map<String, Object> registerUser(RegisterRequest request) {
         if (userRepository.findByEmail(request.getEmail()).isPresent()) {
             throw new RuntimeException("Email already registered!");
         }
@@ -36,13 +38,19 @@ public class AuthService {
         newUser.setEmail(request.getEmail());
         newUser.setPassword(hashedPassword);
 
-        userRepository.save(newUser);
+        User savedUser = userRepository.save(newUser);
 
-        return "User registered successfully!";
+        Map<String, Object> response = new HashMap<>();
+        response.put("success", true);
+        response.put("message", "User registered successfully!");
+        response.put("user", Map.of(
+            "email", savedUser.getEmail(),
+            "fullName", savedUser.getFullName()
+        ));
+        return response;
     }
 
-    //JWT Token Generation
-    public String loginUser(LoginRequest request) {
+    public Map<String, Object> loginUser(LoginRequest request) {
         Optional<User> userOptional = userRepository.findByEmail(request.getEmail());
 
         if (userOptional.isEmpty()) {
@@ -55,7 +63,16 @@ public class AuthService {
             throw new RuntimeException("Invalid email or password!");
         }
 
-        // Generate JWT Token
-        return jwtUtil.generateToken(user.getEmail());
+        String token = jwtUtil.generateToken(user.getEmail());
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("success", true);
+        response.put("token", token);
+        response.put("user", Map.of(
+            "id", user.getId(),
+            "email", user.getEmail(),
+            "fullName", user.getFullName()
+        ));
+        return response;
     }
 }
